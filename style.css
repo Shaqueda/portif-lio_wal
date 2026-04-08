@@ -655,7 +655,11 @@ footer p {
     .hamburger.active span:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
-
+    
+    .work-video {
+        filter: none !important;
+        -webkit-filter: none !important;
+    }
 }
 
 @media (max-width: 480px) {
